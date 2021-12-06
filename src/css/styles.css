@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.active{
+    background-color: #03a9e4;
+}
+.non-active{
+    background-color: #f10000;
+}
+header{
+    text-align: center;
+}
+.logo{
+    font-size: 40px;
+    color: #fff;
+    font-family: Anton;
+}
+.active input{
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 5px 0;
+    outline-color: #03a9e4;
+}
+.non-active input{
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 5px 0;
+    outline-color: #f10000;
+}
+.news-item{
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+}
